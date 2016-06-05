@@ -1,14 +1,30 @@
 {
   "name": "grunt-pdf-optimize",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Optimize PDF Files using Ghostscript",
+  "keywords": [
+    "grunt",
+    "gruntplugin"
+  ],
+  "homepage": "https://github.com/cholzberger/grunt-pdf-optimize",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cholzberger/grunt-pdf-optimize.git"
+  },
   "main": "src/pdf-optimize.js",
+  "files": [
+    "src"
+  ],
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Christian Holzberger <ch@mosaiksoftware.de> (http://blog.mosaiksoftware.de)",
-  "license": "MIT"
+  "author": "Christian Holzberger <ch@mosaiksoftware.de> (http://mosaiksoftware.de)",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.7.0",
+    "underscore": "^1.8.3"
+  }
 }
