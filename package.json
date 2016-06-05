@@ -1,6 +1,6 @@
 {
   "name": "grunt-pdf-optimize",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Optimize PDF Files using Ghostscript",
   "keywords": [
     "grunt",
@@ -11,9 +11,9 @@
     "type": "git",
     "url": "git://github.com/cholzberger/grunt-pdf-optimize.git"
   },
-  "main": "src/pdf-optimize.js",
+  "main": "tasks/pdf-optimize.js",
   "files": [
-    "src"
+    "tasks"
   ],
   "directories": {
     "test": "tests"
